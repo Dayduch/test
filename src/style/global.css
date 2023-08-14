@@ -1,0 +1,51 @@
+/* global clearing */
+*,
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container-nav {
+    background-color: #90E0EF;
+}
+
+.ul-navbar {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    padding: 0;
+    margin: 0;
+    justify-content: flex-end;
+}
+
+.li-navbar {
+    list-style-type: none;
+    padding: 20px;
+    margin: 0;
+}
+
+.li-navbar a {
+    color: #333;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.logo {
+    margin-left: 10px;
+}
+
+.container-main {
+    padding: 20px;
+    row-gap: 5px;
+}
+
+.contact-list {
+    background-color: #6ce9ff;
+    list-style: none;
+}
+
+.contact-item {
+    border: solid 1px black;
+    padding: 10px;
+}
